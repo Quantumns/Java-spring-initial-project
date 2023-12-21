@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Java Spring Web Experience</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4285f4;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .greeting {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .javaSaga {
+            margin-top: 20px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            border: 2px solid #4285f4;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <h1>Java Spring Web Experience</h1>
+
+    <p class="greeting" th:text="'Hello, ' + ${name} + '!'"/>
+
+    <div class="javaSaga">
+        <p>Once upon a code-filled morning, our esteemed Java maestro, Mr. Bielecki, embarked on a journey to enlighten our eager minds about the enchanting realm of Spring Web within the hallowed halls of IntelliJ.</p>
+
+        <p>With an infectious passion for programming, Mr. Bielecki began weaving a tapestry of knowledge, seamlessly integrating the threads of Java syntax and Spring magic. As he navigated through the lush landscape of IntelliJ, he wielded his keyboard like a wizard casting spells of efficiency and elegance.</p>
+
+        <p>Amidst the rhythmic clatter of keystrokes, Mr. Bielecki painted vivid pictures of dependency injection, beans, and MVC architecture. His explanations were like melodies that harmonized with the clicks of our mice and the hum of IntelliJ's features coming to life.</p>
+
+        <p>In this Java saga, Mr. Bielecki guided us through the enchanted forest of annotations and annotations within annotations, making the complex seem as simple as a println statement. With each code snippet, he unlocked the secrets of Spring, turning novices into web sorcerers.</p>
+
+        <p>As the class unfolded, laughter echoed in the room, and Mr. Bielecki's wit sprinkled a dash of humor into the intricacies of Spring. He transformed the learning experience into a symphony of education and entertainment, where every line of code carried a tale of its own.</p>
+
+        <p>And so, under Mr. Bielecki's guidance, our IntelliJ screens became canvases, and Java Spring web development, a masterpiece in the making. In this magical coding realm, our teacher's wisdom and charm turned the mundane into the extraordinary, leaving us with a newfound love for the language and an unwavering admiration for the maestro himself.</p>
+    </div>
+
+    <img th:src="@{/images/Vistula.png}" width="600" height="600" alt="Vistula River Image"/>
+</div>
+
+</body>
+</html>
